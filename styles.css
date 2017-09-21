@@ -1,0 +1,41 @@
+body{
+  background-color: #da8787;
+}
+.articulo .fondo2{
+ width-max: 100%;
+}
+.suscribe-box{
+  margin: 20px;
+  padding: 10px;
+  margin-left: 50%;
+  border-style: solid;
+  border-color: black;
+}
+.articulo img.articulo-img{
+  width:100%;
+  }
+.articulo img.header-img{
+  width: 100%;
+  height: 200px;
+
+}
+.texto-articulo{
+  color: black;
+  font: bold;
+}
+.articulo .titulo{
+  color: pink;
+  text-align: center;
+  position: static;
+  top: -20px; bottom: 0; right: 0; left: 0;
+}
+.articulo{
+  color: red;
+}
+
+.titulo{
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 15px 20px 15px;
+  color: green;
+}

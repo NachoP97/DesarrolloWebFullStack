@@ -1,0 +1,42 @@
+<div class="container articulo" *ngIf="articulo">
+  <section>
+    <div class="row">
+      <div class="col-12">
+          <div class="hero-image">
+            <h1 class="titulo">
+              {{ articulo.titulo }}
+            </h1>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="row">
+        <div class="col-5">
+          <img class="articulo-image"
+          src="/assets/foto-perro.jpg" alt="Foto Perro">
+          <span class="subtitulo">{{ articulo.subtitulo }}</span>
+        </div>
+        <div class="col-7">
+          <p class="main-text">
+            {{ articulo.descripcion }}
+          </p>
+        </div>
+    </div>
+  </section>
+  <section>
+    <form class="" action="index.html" method="post">
+        <div class="row">
+          <div class="col text-right">
+            <label for="#emailInput">
+              Mail:
+            </label>
+            <input id="emailInput"
+              type="text" name="email" value="" />
+          </div>
+          <button class="btn btn-primary enviar"
+            type="submit">Submit</button>
+        </div>
+    </form>
+  </section>
+</div>

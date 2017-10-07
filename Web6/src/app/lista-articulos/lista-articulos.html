@@ -1,0 +1,3 @@
+<div *ngFor="let articulo of articulos">
+  <a [routerLink]="['/articulo', articulo.id]">{{articulo.titulo}}</a>
+</div>
